@@ -27,7 +27,7 @@ SECRET_KEY = 'l0=#%*4px(dvh^&vg+fk08z7vw2k!ujt2k@!5&#e%br_x6heo#'
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '8080-f00448da-4a2c-40d8-a16f-4005509a1a87.ws-eu01.gitpod.io', 
-studying-django-todo.herokuapp.com]
+'studying-django-todo.herokuapp.com']
 
 
 # Application definition
