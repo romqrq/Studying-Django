@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 
                 os.environ.get('HOSTNAME_GITPOD'), 
-                os.environ.get('HOSTNAME_HEROKU'')]
+                os.environ.get('HOSTNAME_HEROKU')]
 
 
 # Application definition
