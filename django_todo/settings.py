@@ -27,8 +27,8 @@ SECRET_KEY = 'l0=#%*4px(dvh^&vg+fk08z7vw2k!ujt2k@!5&#e%br_x6heo#'
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 
-                os.environ.get(HOSTNAME_GITPOD), 
-                os.environ.get(HOSTNAME_HEROKU)]
+                os.environ.get('HOSTNAME_GITPOD'), 
+                os.environ.get('HOSTNAME_HEROKU'')]
 
 
 # Application definition
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 #     }
 # }
 
-DATABASES = {'default': os.environ.get(DATABASE_URL)}
+DATABASES = {'default': os.environ.get('DATABASE_URL')}
 
 
 # Password validation
