@@ -19,8 +19,8 @@ echo "Adding run aliases"
 echo 'alias run="python3 $GITPOD_REPO_ROOT/manage.py runserver 0.0.0.0:8000"' >> ~/.bashrc
 echo 'alias python=python3' >> ~/.bashrc
 echo 'alias pip=pip3' >> ~/.bashrc
+echo 'export SECRET_KEY="6jet9&c$^+_k5*@_p0ixiwdu$+@*(kz9sxsa6s$p634dd9fst!"' >> ~/.bashrc
 
 echo 'export DEVELOPMENT=1' >> ~/.bashrc
-echo 'export SECRET_KEY="6jet9&c$^+_k5*@_p0ixiwdu$+@*(kz9sxsa6s$p634dd9fst!"' >> ~/.bashrc
 echo "Done"
 source ~/.bashrc
